@@ -1,7 +1,5 @@
 import torch
 import argparse
-import time
-from scripts.train import train_model
 from models.model_factory import ModelFactory
 from data.data_loader import get_data_loaders
 from trainers.model_trainer import ModelTrainer

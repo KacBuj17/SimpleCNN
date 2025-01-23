@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Simple_CNN
+Version: 0.1
+Summary: Simple CNN project with MNIST, CIFAR10 and CIFAR100
+Author: Kacper Bujak
+Author-email: kacbuj@student.agh.edu.pl
+Requires-Python: >=3.9
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: numpy
+Requires-Dist: argparse
