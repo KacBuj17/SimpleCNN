@@ -12,8 +12,8 @@ def parse_arguments():
                         help="Type of the model to train: mnist, cifar10, cifar100 (default: mnist)")
     parser.add_argument("--batch_size", type=int, default=64,
                         help="Batch size for data loaders (default: 64 for CIFAR trained_models, 64 for MNIST)")
-    parser.add_argument("--model_path", type=str, default="./trained_models/MNIST_model.pth",
-                        help="Path to save the trained model (default: ./trained_models/MNIST_model.pth)")
+    parser.add_argument("--model_path", type=str, default="./trained_models/MNISTCNN.pth",
+                        help="Path to save the trained model (default: ./trained_models/MNISTCNN.pth)")
     return parser.parse_args()
 
 def main():

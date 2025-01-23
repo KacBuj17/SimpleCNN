@@ -15,8 +15,8 @@ def parse_arguments():
                         help="Batch size for data loaders (default: 4 for CIFAR trained_models, 64 for MNIST)")
     parser.add_argument("--num_epochs", type=int, default=5,
                         help="Number of training epochs (default: 5)")
-    parser.add_argument("--model_save_path", type=str, default="./trained_models/Cifar100CNN_model.pth",
-                        help="Path to save the trained model (default: ./trained_models/Cifar100CNN_model.pth)")
+    parser.add_argument("--model_save_path", type=str, default="./trained_models/Cifar100CNN.pth",
+                        help="Path to save the trained model (default: ./trained_models/Cifar100CNN.pth)")
     return parser.parse_args()
 
 
