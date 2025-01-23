@@ -10,9 +10,8 @@ def test_get_mnist_loaders():
     assert isinstance(train_loader, DataLoader)
     assert isinstance(test_loader, DataLoader)
 
-    # Sprawdź długość datasetów
-    assert len(train_loader) == 60000, "MNIST train dataset size is incorrect"
-    assert len(test_loader) == 10000, "MNIST test dataset size is incorrect"
+    assert len(train_loader.dataset) == 60000, "MNIST train dataset size is incorrect"
+    assert len(test_loader.dataset) == 10000, "MNIST test dataset size is incorrect"
 
 
 def test_get_cifar10_loaders():
@@ -21,9 +20,8 @@ def test_get_cifar10_loaders():
     assert isinstance(train_loader, DataLoader)
     assert isinstance(test_loader, DataLoader)
 
-    # Sprawdź długość datasetów
-    assert len(train_loader) == 50000, "CIFAR-10 train dataset size is incorrect"
-    assert len(test_loader) == 10000, "CIFAR-10 test dataset size is incorrect"
+    assert len(train_loader.dataset) == 50000, "CIFAR-10 train dataset size is incorrect"
+    assert len(test_loader.dataset) == 10000, "CIFAR-10 test dataset size is incorrect"
 
 
 def test_get_cifar100_loaders():
@@ -32,9 +30,8 @@ def test_get_cifar100_loaders():
     assert isinstance(train_loader, DataLoader)
     assert isinstance(test_loader, DataLoader)
 
-    # Sprawdź długość datasetów
-    assert len(train_loader) == 50000, "CIFAR-100 train dataset size is incorrect"
-    assert len(test_loader) == 10000, "CIFAR-100 test dataset size is incorrect"
+    assert len(train_loader.dataset) == 50000, "CIFAR-100 train dataset size is incorrect"
+    assert len(test_loader.dataset) == 10000, "CIFAR-100 test dataset size is incorrect"
 
 
 def test_get_data_loaders_mnist():
@@ -43,7 +40,7 @@ def test_get_data_loaders_mnist():
 
     assert isinstance(train_loader, DataLoader)
     assert isinstance(test_loader, DataLoader)
-    assert len(train_loader) == 60000, "MNIST train dataset size is incorrect"
+    assert len(train_loader.dataset) == 60000, "MNIST train dataset size is incorrect"
 
 
 def test_get_data_loaders_cifar10():
@@ -52,7 +49,7 @@ def test_get_data_loaders_cifar10():
 
     assert isinstance(train_loader, DataLoader)
     assert isinstance(test_loader, DataLoader)
-    assert len(train_loader) == 50000, "CIFAR-10 train dataset size is incorrect"
+    assert len(train_loader.dataset) == 50000, "CIFAR-10 train dataset size is incorrect"
 
 
 def test_get_data_loaders_cifar100():
@@ -61,7 +58,7 @@ def test_get_data_loaders_cifar100():
 
     assert isinstance(train_loader, DataLoader)
     assert isinstance(test_loader, DataLoader)
-    assert len(train_loader) == 50000, "CIFAR-100 train dataset size is incorrect"
+    assert len(train_loader.dataset) == 50000, "CIFAR-100 train dataset size is incorrect"
 
 
 def test_get_data_loaders_invalid_model():

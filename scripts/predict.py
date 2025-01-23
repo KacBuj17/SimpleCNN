@@ -13,16 +13,19 @@ def preprocess_image(image_path, model_type):
             transforms.ToTensor(),
             transforms.Normalize((0.5,), (0.5,))
         ])
-    else:
+    elif model_type == "cifar10" or model_type == "cifar100":
         transform = transforms.Compose([
             transforms.Resize((32, 32)),
             transforms.ToTensor(),
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
         ])
+    else:
+        raise ValueError(f"Unsupported model type: {model_type}")
 
     image = Image.open(image_path)
     image = transform(image)
     return image.unsqueeze(0)
+
 
 def predict(model, image_tensor, device):
     model.to(device)

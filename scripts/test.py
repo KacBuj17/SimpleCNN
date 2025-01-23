@@ -1,5 +1,6 @@
 import torch
 
+
 def compute_accuracy(correct, total):
     return 100 * correct / total
 

@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d81abfe-310b-4e52-af45-5fa3b892945d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_test_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SimpleCNN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SimpleCNN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_CNN.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_CNN.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_CNN.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_CNN.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_CNN.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_CNN.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_CNN.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_CNN.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple_CNN.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Simple_CNN.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_model_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_model_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_model_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_model_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_model_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_model_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_test_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_train_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trained_models/Cifar100CNN.pth" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/Cifar100CNN.pth" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +67,8 @@
     "Python tests.Python tests for test_models.test_model_backward_pass.executor": "Run",
     "Python tests.Python tests for test_models.test_model_forward_pass.executor": "Run",
     "Python tests.Python tests for test_predict.test_preprocess_image_invalid_model.executor": "Run",
+    "Python tests.Python tests for test_predict.test_preprocess_image_mnist.executor": "Run",
+    "Python tests.Python tests for test_test_model.test_compute_accuracy.executor": "Run",
     "Python tests.Python tests for test_test_model.test_test_model.executor": "Run",
     "Python tests.Python tests for test_train_model.test_train_model.executor": "Run",
     "Python tests.Python tests in test_data_loader.py.executor": "Run",
@@ -85,7 +94,7 @@
       <recent name="$PROJECT_DIR$/trainers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_test_model.test_test_model">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SimpleCNN" />
       <option name="ENV_FILES" value="" />
@@ -108,21 +117,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_data_loader.test_get_data_loaders_invalid_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SimpleCNN" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_data_loader.test_get_data_loaders_invalid_model&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_data_loader.test_get_mnist_loaders" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SimpleCNN" />
       <option name="ENV_FILES" value="" />
@@ -138,7 +132,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_model_factory.test_create_train_model_mnist" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_model_trainer.test_save_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SimpleCNN" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_model_factory.test_create_train_model_mnist&quot;" />
+      <option name="_new_target" value="&quot;test_model_trainer.test_save_method&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -168,7 +162,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_predict.test_preprocess_image_invalid_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_test_model.test_compute_accuracy" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SimpleCNN" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,17 +173,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_predict.test_preprocess_image_invalid_model&quot;" />
+      <option name="_new_target" value="&quot;test_test_model.test_compute_accuracy&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_test_model.test_test_model" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SimpleCNN" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_test_model.test_test_model&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_model_factory.test_create_train_model_mnist" />
-        <item itemvalue="Python tests.Python tests for test_data_loader.test_get_data_loaders_invalid_model" />
-        <item itemvalue="Python tests.Python tests for test_data_loader.test_get_mnist_loaders" />
-        <item itemvalue="Python tests.Python tests for test_predict.test_preprocess_image_invalid_model" />
+        <item itemvalue="Python tests.Python tests for test_test_model.test_test_model" />
+        <item itemvalue="Python tests.Python tests for test_model_trainer.test_save_method" />
         <item itemvalue="Python tests.Python tests for test_model_utils.test_load_mnist_model" />
+        <item itemvalue="Python tests.Python tests for test_test_model.test_compute_accuracy" />
+        <item itemvalue="Python tests.Python tests for test_data_loader.test_get_mnist_loaders" />
       </list>
     </recent_temporary>
   </component>
